@@ -1,0 +1,64 @@
+Changelog
+
++--------------------+
+| v.1.2.0 - 08/04/16 |
++--------------------+
+
+* Updated style.css to add new shortcode class options
+* Updated /inc/clarity-shortcodes.php to add background image option for the [wrap] shortcode
+* Updated /inc/theme-customizer.php to add Main Color option
+
++--------------------+
+| v.1.1.1 - 02/09/16 |
++--------------------+
+
+* Updated style.css to fix a few style errors
+* Updated /inc/theme-hooks.php to add new hooks
+* Updated /inc/theme-functions.php to add new functions
+* Updated header.php to add functions to display header and navigation
+* Updated footer.php to fix CSS class issue with center navigation
+* Updated 404.php to add a class to the h1 tag
+* Updated 404.php to add clarity_main_inside() hook & clarity_main_insideafter() hooks
+* Updated index.php to add a class to the h1 tag & clarity_main_insideafter() hook
+* Updated page.php to add clarity_main_inside() & clarity_main_insideafter() hooks
+* Updated page-archives.php to add clarity_main_inside() & clarity_main_insideafter() hooks
+* Updated page-fullwidth.php to add clarity_main_inside() & clarity_main_insideafter() hooks
+* Updated single.php to add clarity_main_inside() & clarity_main_insideafter() hooks
+* Updated sidebar.php to add clarity_sidebar_insideafter() hook
+
++--------------------+
+| v.1.1.0 - 12/18/15 |
++--------------------+
+
+* Added page-landing.php file as an additional page template option
+* Updated footer.php to add CSS when the checkbox is selected to center the navigation
+* Updated footer.php to add a fontawesome icon to the "scrollToTop" link
+* Updated footer.php to hide the entire footer if the page-landing.php template is selected on a page
+* Updated header.php with the newest version of fontawesome (4.5.0)
+* Updated header.php to remove the favicon code, since WordPress now includes a "Site Icon" into the customizer
+* Updated header.php to hide the entire header if the page-landing.php template is selected on a page
+* Updated style.css to fix a few style errors and various new enhancements
+* Updated /inc/loop-image.php to show the full size image and also make the image link to the URL for the post
+* Updated /inc/loop.php to add CSS class to featured image <a> for styling purposes
+* Updated /inc/theme-customizer.php to remove the favicon code, since WordPress now includes a "Site Icon" into the customizer
+* Updated /inc/theme-customizer.php to add a checkbox option to make the navigation links centered
+
++--------------------+
+| v.1.0.1 - 07/14/15 |
++--------------------+
+
+* Added /inc/theme-functions.php file with clarity postinfo
+* Updated /inc/theme-shortcodes.php with added class option for 'clear' div
+* Updated /inc/title.php and fixed the Work CPT title code
+* Updated /inc/loop.php to remove the thumbnail image from single posts
+* Updated functions.php to include /inc/theme-functions.php file
+* Updated functions.php to include checks if various functions exist, which allow for overrides in child themes
+* Updated index.php to include "archivetitle" to the 'currently browsing' div
+* Updated sidebar.php to fix a hook - clarity_sidebar_before() was in the file twice, instead of clarity_sidebar_after()
+* Updated comments.php to remove the text "Comments are closed" from view on live pages #rookiemistake
+
++--------------------+
+| v.1.0.0 - 12/11/14 |
++--------------------+
+
+* Initial release
